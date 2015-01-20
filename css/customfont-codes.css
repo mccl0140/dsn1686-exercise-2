@@ -1,0 +1,5 @@
+
+.icon-firefox:before { content: '\e800'; } /* '' */
+.icon-chrome:before { content: '\e801'; } /* '' */
+.icon-ie:before { content: '\e802'; } /* '' */
+.icon-safari:before { content: '\e803'; } /* '' */
