@@ -1,0 +1,118 @@
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 7, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #ccc; }
+
+/* line 16, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 20, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff; }
+
+/* line 26, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+section {
+  padding: 1rem 0; }
+
+/* line 30, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+img {
+  display: block;
+  margin: 0 auto; }
+
+/* line 35, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+h1 {
+  text-align: center;
+  padding: 5rem;
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #FFF; }
+
+/* line 43, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.intro-section {
+  background-color: #777; }
+
+/* line 47, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.buttons {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+/* line 56, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s; }
+
+/* line 62, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.action-button {
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  font-weight: 100;
+  color: #FFF;
+  text-decoration: none; }
+
+/* line 76, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.blue {
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9; }
+
+/* line 83, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.red {
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31; }
+
+/* line 90, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.green {
+  background-color: #82BF56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644; }
+
+/* line 97, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.yellow {
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  text-shadow: 0px -2px #D1B358; }
+
+/* line 104, /Users/pet_lover01_3/Documents/Semester 2/Web Dev/dsn1686-exercise-2/scss/components/_main.scss */
+.action-button:active {
+  -ms-transform: translate(0px, 5px);
+      transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid; }
+/*# sourceMappingURL=_main.css.map */
