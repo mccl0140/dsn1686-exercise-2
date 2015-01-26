@@ -41,7 +41,7 @@ h1{
 }
 
 .intro-section {
-	background-color: $intro-bg;
+	background-color: #777;
 }
 
 .buttons{
@@ -66,7 +66,7 @@ h1{
   margin: 0px 10px 10px 0px;
   float: left;
 	border-radius: 10px;
-	font-family: $font-family;
+	font-family: 'Pacifico', cursive;
 	font-size: 25px;
 	font-weight: 100;
 	color: #FFF;
@@ -76,29 +76,29 @@ h1{
 .blue
 {
 	background-color: $blue;
-	border-bottom: 5px solid #2980B9;
-	text-shadow: 0px -2px #2980B9;
+	@include border-bottom($blue-shadow);
+	@include text-shadow($blue-shadow);
 }
 
 .red
 {
 	background-color: $red;
-	border-bottom: 5px solid #BD3E31;
-	text-shadow: 0px -2px #BD3E31;
+	@include border-bottom($red-shadow);
+	@include text-shadow($red-shadow);
 }
 
 .green
 {
 	background-color: $green;
-	border-bottom: 5px solid #669644;
-	text-shadow: 0px -2px #669644;
+	@include border-bottom($green-shadow);
+	@include text-shadow($green-shadow);
 }
 
 .yellow
 {
 	background-color: $yellow;
-	border-bottom: 5px solid #D1B358;
-	text-shadow: 0px -2px #D1B358;
+	@include border-bottom($yellow-shadow);
+	@include text-shadow($yellow-shadow);
 }
 
 .action-button:active

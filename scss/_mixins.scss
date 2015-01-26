@@ -1,0 +1,7 @@
+@mixin border-bottom ($blue-shadow){
+	border-bottom: 5px solid $blue-shadow;
+}
+
+@mixin text-shadow ($blue-shadow){
+	text-shadow: 0px -2px $blue-shadow;
+}
